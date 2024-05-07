@@ -1,0 +1,141 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/uzCreE7iMop
+-->
+
+<section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-[#1E40AF] to-[#3B82F6]">
+  <div class="container px-4 md:px-6 text-white">
+    <div class="flex flex-col items-center text-center space-y-4">
+      <h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+        Schedule Your Service Appointment
+      </h1>
+      <p class="max-w-[700px] text-lg md:text-xl">
+        Bring your vehicle in for maintenance or repairs at our state-of-the-art service center. Book your
+        appointment today!
+      </p>
+      <a
+        class="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#1E40AF] shadow transition-colors hover:bg-gray-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50"
+        href="#"
+      >
+        Schedule Appointment
+      </a>
+    </div>
+  </div>
+</section>
+<section id="schedule-appointment" class="w-full py-12 md:py-24 lg:py-32">
+  <div class="container px-4 md:px-6">
+    <div class="grid gap-6 lg:grid-cols-2 lg:gap-12">
+      <div>
+        <h2 class="text-3xl font-bold tracking-tighter mb-4">Schedule Your Appointment</h2>
+        <form class="space-y-4">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="space-y-1">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="name"
+              >
+                Name
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="name"
+                placeholder="John Doe"
+                type="text"
+              />
+            </div>
+            <div class="space-y-1">
+              <label
+                class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                for="phone"
+              >
+                Phone
+              </label>
+              <input
+                class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                id="phone"
+                placeholder="(123) 456-7890"
+                type="tel"
+              />
+            </div>
+          </div>
+          <div class="space-y-1">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="email"
+            >
+              Email
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="email"
+              placeholder="john@example.com"
+              type="email"
+            />
+          </div>
+          <div class="space-y-1">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="vehicle"
+            >
+              Vehicle
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="vehicle"
+              placeholder="2015 Honda Civic"
+              type="text"
+            />
+          </div>
+          <div class="space-y-1">
+            <label
+              class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+              for="appointment-time"
+            >
+              Appointment Time
+            </label>
+            <input
+              class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+              id="appointment-time"
+              type="datetime-local"
+            />
+          </div>
+          <button
+            class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
+            type="submit"
+          >
+            Schedule Appointment
+          </button>
+        </form>
+      </div>
+      <div class="space-y-4">
+        <h2 class="text-3xl font-bold tracking-tighter">Our Service Center</h2>
+        <div class="space-y-2">
+          <h3 class="text-xl font-bold">Hours of Operation</h3>
+          <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+          <p>Saturday: 9:00 AM - 5:00 PM</p>
+          <p>Closed on Sundays</p>
+        </div>
+        <div class="space-y-2">
+          <h3 class="text-xl font-bold">Services Offered</h3>
+          <ul class="list-disc pl-6 space-y-1">
+            <li>Oil Changes</li>
+            <li>Tire Rotations</li>
+            <li>Brake Inspections</li>
+            <li>Engine Diagnostics</li>
+            <li>And more...</li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h3 class="text-xl font-bold">Current Promotions</h3>
+          <p>Get 10% off your next oil change with this coupon!</p>
+          <a
+            class="inline-flex h-9 items-center justify-center rounded-md bg-[#1E40AF] px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-[#1C4AB3] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#1E40AF] disabled:pointer-events-none disabled:opacity-50"
+            href="#"
+          >
+            Print Coupon
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
